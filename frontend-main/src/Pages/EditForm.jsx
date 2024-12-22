@@ -19,7 +19,7 @@ const EditForm = ({ contactData, onClose, onSave }) => {
   };
 
   useEffect(() => {
-    fetch("https://countrynamewithphonecode.onrender.com/")
+    fetch("https://fronend-nkvc.onrender.com")
       .then((res) => res.json())
       .then((data) => {
         setCountries(data);
